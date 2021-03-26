@@ -16,7 +16,6 @@ p {
     text-align: center;
     padding: 20px 0;
     background: linear-gradient(#e66465, #9198e5);
-
 }
 
 .info {
@@ -27,7 +26,6 @@ p {
 }
 
 .skills {
-    position: relative;
     padding: 20px 20px;
     background: linear-gradient(#e66465, #9198e5);
     max-width: 30%;
@@ -36,7 +34,6 @@ p {
 }
 
 .description {
-    position: relative;
     padding: 20px 20px;
     background: linear-gradient(#e66465, #9198e5);
 }
@@ -60,7 +57,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px 5px;
-
 }
 
 .image2 {
@@ -72,7 +68,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px 5px;
-
 }
 
 .image3 {
@@ -84,7 +79,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px 5px;
-
 }
 
 .image4 {
