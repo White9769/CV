@@ -1,31 +1,31 @@
-body {
+.cv {
     font-family: 'RobotoLight', Helvetica, Arial, sans-serif;
     margin: 10px 30px 0 30px;
 }
 
-p {
+.text {
     font-size: 20px;
 }
 
-.center {
+.cv__body {
     margin: 0 auto;
 }
 
-.masthead {
+.cv__header {
     height: 80px;
     text-align: center;
     padding: 20px 0;
     background: linear-gradient(#e66465, #9198e5);
 }
 
-.info {
+.cv__information {
     display: flex;
     justify-content: space-around;
     margin: 10px 0;
     width: 100%;
 }
 
-.skills {
+.cv__skills {
     padding: 20px 20px;
     background: linear-gradient(#e66465, #9198e5);
     max-width: 30%;
@@ -33,22 +33,22 @@ p {
     margin: 0 10px 0 0;
 }
 
-.description {
+.cv__description {
     padding: 20px 20px;
     background: linear-gradient(#e66465, #9198e5);
 }
 
-.description_info {
+.cv__article-description {
     margin-bottom: 20px;
 }
 
-.img {
+.cv__image {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.image1 {
+.cv__image-one {
     background-image: url(../images/11.PNG);
     display: block;
     width: 45%;
@@ -59,7 +59,7 @@ p {
     margin: 20px 5px;
 }
 
-.image2 {
+.cv__image-two {
     background-image: url(../images/22.PNG);
     display: block;
     width: 45%;
@@ -70,7 +70,7 @@ p {
     margin: 20px 5px;
 }
 
-.image3 {
+.cv__image-three {
     background-image: url(../images/33.PNG);
     display: block;
     width: 45%;
@@ -81,7 +81,7 @@ p {
     margin: 20px 5px;
 }
 
-.image4 {
+.cv__image-four {
     background-image: url(../images/44.png);
     display: block;
     width: 45%;
@@ -92,13 +92,12 @@ p {
     margin: 20px 5px;
 }
 
-footer {
+.cv__footer {
     position: relative;
     background: linear-gradient(#e66465, #9198e5);
 }
 
-.copyright {
-    font-size: 20px;
+.cv__copyright {
     text-align: center;
     padding: 10px 0;
 }
